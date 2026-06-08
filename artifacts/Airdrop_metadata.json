@@ -1,0 +1,63 @@
+{
+	"compiler": {
+		"version": "0.8.34+commit.80d5c536"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address payable[]",
+						"name": "recipients",
+						"type": "address[]"
+					},
+					{
+						"internalType": "uint256",
+						"name": "Amount",
+						"type": "uint256"
+					}
+				],
+				"name": "SendToAll",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/AirdropForlop.sol": "Airdrop"
+		},
+		"evmVersion": "osaka",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/AirdropForlop.sol": {
+			"keccak256": "0x3ea2060623e8e9ca9b187e2462caba0a879cac29fd33ac8a706455af73514aa2",
+			"urls": [
+				"bzz-raw://6f32bca98b8d3080457585062d04a0fc85143433f402fe0803d003f61b3df538",
+				"dweb:/ipfs/Qmb3uKenQPPHQx5y2XSEgBS5Qs8z5zcgMiTsPT8ZpRKwec"
+			]
+		}
+	},
+	"version": 1
+}

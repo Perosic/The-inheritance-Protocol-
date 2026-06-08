@@ -1,0 +1,184 @@
+{
+	"compiler": {
+		"version": "0.8.34+commit.80d5c536"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getStudent",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					},
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getTeacher",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					},
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_studentName",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_studentId",
+						"type": "uint256"
+					},
+					{
+						"internalType": "bool",
+						"name": "_isStudentPresent",
+						"type": "bool"
+					}
+				],
+				"name": "setStudent",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_teacherName",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_teacherId",
+						"type": "uint256"
+					},
+					{
+						"internalType": "bool",
+						"name": "_isTeacherPresent",
+						"type": "bool"
+					}
+				],
+				"name": "setTeacher",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "student",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "studentName",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "studentId",
+						"type": "uint256"
+					},
+					{
+						"internalType": "bool",
+						"name": "isStudentPresent",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "teacher",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "teacherName",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "teacherId",
+						"type": "uint256"
+					},
+					{
+						"internalType": "bool",
+						"name": "isTeacherPresent",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Web3ClassUpdated.sol": "School"
+		},
+		"evmVersion": "osaka",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Web3ClassUpdated.sol": {
+			"keccak256": "0x6b14dcf9f362960c52cb6f5936eb9859248e8db1ae8d1bec87a6ba1c5ccf0fd9",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://a31ffa99094fe44386b8ec37ac6df98a613418885a03896bb70dfab8193fc180",
+				"dweb:/ipfs/QmVsf6XCKY9jVi1h6ewC5fadJis8Ls64yo4h8D2cp8k3tY"
+			]
+		}
+	},
+	"version": 1
+}
